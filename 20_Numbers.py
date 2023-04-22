@@ -19,4 +19,11 @@ for num in numbers:
     else:
         odd_numbers.append(num)
 # Create the file even.txt and write all of the even integers that were extracted.
+with open("even.txt", "w") as even_file:
+    for n in even_numbers:
+        even_file.write(str(n) + "\n")
+
 # Create the file oo.txt and write all of the odd integers that were extracted.
+with open("odd.txt", "w") as odd_file:
+    for n in odd_numbers:
+        odd_file.write(str(n) + "\n")
