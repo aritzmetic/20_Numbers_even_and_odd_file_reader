@@ -9,9 +9,14 @@ with open("numbers.txt", "r") as input_file:
     numbers = input_file.readlines()
     # numbers.txt needs to have its character data converted into integers.
     numbers = [int(line.strip()) for line in numbers]
-    print(numbers)
-        
 # Create separate blank lists for the even and odd integers.
+even_numbers = []
+odd_numbers = []
 # Use for loops to separate the even and odd integers
+for num in numbers:
+    if num % 2 == 0:
+        even_numbers.append(num)
+    else:
+        odd_numbers.append(num)
 # Create the file even.txt and write all of the even integers that were extracted.
 # Create the file oo.txt and write all of the odd integers that were extracted.
