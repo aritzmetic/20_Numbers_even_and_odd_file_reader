@@ -5,6 +5,10 @@
 # The second text file will be named odd.txt that will contains all odd numbers extracted from the numbers.txt.
 
 # Open the numbers.txt 
+with open("numbers.txt", "r") as input_file:
+    for line in input_file:
+        print(line.strip())
+
 # numbers.txt needs to have its character data converted into integers.
 # Create separate blank lists for the even and odd integers.
 # Use for loops to separate the even and odd integers
