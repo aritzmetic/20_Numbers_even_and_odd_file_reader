@@ -6,10 +6,11 @@
 
 # Open the numbers.txt 
 with open("numbers.txt", "r") as input_file:
-    for line in input_file:
-        print(line.strip())
-
-# numbers.txt needs to have its character data converted into integers.
+    numbers = input_file.readlines()
+    # numbers.txt needs to have its character data converted into integers.
+    numbers = [int(line.strip()) for line in numbers]
+    print(numbers)
+        
 # Create separate blank lists for the even and odd integers.
 # Use for loops to separate the even and odd integers
 # Create the file even.txt and write all of the even integers that were extracted.
