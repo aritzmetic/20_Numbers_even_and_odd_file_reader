@@ -31,3 +31,8 @@ https://user-images.githubusercontent.com/112628197/233789581-5cd20057-5192-4c0e
 > 8. The program will tell you how many of the integers in the list are even or odd.
 > 9. The application will begin and end with appealing ASCII artwork.
 
+https://user-images.githubusercontent.com/112628197/233819040-1b1086fc-4ebd-4c22-b786-e128ee088581.mp4
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+**_You are free to get in touch with me, @aritzmetic,  or to report problems directly on this repository if you discover problems with the project. Check out our [contribution guidelines](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors) if you are interested in doing more to help the development of the project. Thank you!_** 
