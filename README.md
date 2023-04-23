@@ -19,3 +19,15 @@ https://user-images.githubusercontent.com/112628197/233789581-5cd20057-5192-4c0e
 
 ## **How to run this program?**
 ![Screenshot 2023-04-22 223009](https://user-images.githubusercontent.com/112628197/233790775-7dc9c296-4be3-43e8-b1f3-7b5ed6401116.png)
+
+## **How to run this program using IDE?**
+> 1. Make sure you're running the latest version of Python on the computer.
+> 2. Get the code from the GitHub repository and run it.
+> 3. Set open a dev environment (IDE) like PyCharm or Visual Studio Code.
+> 4. In your IDE, load the file called number_sorter.py.
+> 5. Launch the 20_Numbers.py program.
+> 6. When prompted, type in your name.
+> 7. The program on the computer will run over the list of numbers, sort them, and then save the results as separate text files.
+> 8. The program will tell you how many of the integers in the list are even or odd.
+> 9. The application will begin and end with appealing ASCII artwork.
+
